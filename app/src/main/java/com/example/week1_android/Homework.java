@@ -8,7 +8,7 @@ public class Homework {
 
 class Shape {
     double side; // square
-    double length; // rectangel
+    double length; // rectangle
     double breadth; // rectangle
 
     Shape(double side) {
@@ -16,7 +16,7 @@ class Shape {
         this.side = side;
     } // square needs one feature to calculate ares
 
-    Shape(double length, double breadth) { //2 fearues length and breadth
+    Shape(double length, double breadth) { //2 features :-  length and breadth
         System.out.println("constructor of Shape(l,b");
 
         this.length = length;
@@ -30,7 +30,7 @@ class Shape {
 }
 
 class Square extends Shape {
-    Square(double side) { // 1 parameter one field to calulate
+    Square(double side) { // 1 parameter one field to calculate
         super(side);
         System.out.println("constructor of Shape(l,b");
     }
