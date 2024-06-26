@@ -38,7 +38,7 @@ class Employee {
 
     // data
     String employeeName;
-    String employeeType; // fulltime, intern, contractor
+    String employeeType; // full time, intern, contractor
     int employeeId;
 
 
@@ -68,7 +68,7 @@ class Contractor extends Employee {
     }
 }
 
-// Intern & Fulltime
+// Intern & Full time
 class Intern extends Employee {
 
     String salary = "$50,000";
