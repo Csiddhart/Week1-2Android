@@ -61,11 +61,12 @@ class Contractor extends Employee {
 
     Contractor(String employeeName, String employeeType, int employeeId) {
         super(employeeName, employeeType, employeeId);
+        //we are inheriting everything from the parent class(here employee) just by using super keyword
     }
 
     public String toString() {
         return super.toString() + "\n Salary = " + salary;
-    }
+    } // we are also inheriting toString from parent class and on top of that we are adding Salary string
 }
 
 // Intern & Full time
