@@ -1,7 +1,7 @@
 package com.example.week1_android;
 
 
-// Create a class called Shape and calculate area using inheritance and polymporphism concepts we learned
+// Create a class called Shape and calculate area using inheritance and polymorphism concepts we learned
 // to calculate the area of Square, Rectangle and Triangle
 public class Homework {
 }
@@ -36,7 +36,7 @@ class Square extends Shape {
     }
 
     public double calculateArea() {
-        System.out.println("calculateArea of Squre(side)");
+        System.out.println("calculateArea of Square(side)");
         return (super.side * super.side);
     }
 
