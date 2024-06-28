@@ -12,19 +12,19 @@ class Shape {
     double breadth; // rectangle
 
     Shape(double side) {
-        System.out.println("constructor of Shape(side)");
+//        System.out.println("constructor of Shape(side)");
         this.side = side;
     } // square needs one feature to calculate ares
 
     Shape(double length, double breadth) { //2 features :-  length and breadth
-        System.out.println("constructor of Shape(l,b");
+        //System.out.println("constructor of Shape(l,b)");
 
         this.length = length;
         this.breadth = breadth;
     }
 
     public String toString() {
-        System.out.println("toString of Shape");
+       // System.out.println("toString of Shape");
         return "Area of ";
     }
 }
@@ -32,11 +32,10 @@ class Shape {
 class Square extends Shape {
     Square(double side) { // 1 parameter one field to calculate
         super(side);
-        System.out.println("constructor of Shape(l,b");
     }
 
     public double calculateArea() {
-        System.out.println("calculateArea of Square(side)");
+        System.out.println("calculating Area of Square(side)");
         return (super.side * super.side);
     }
 
@@ -51,6 +50,7 @@ class Rectangle extends Shape {
     }
 
     public double calculatedArea() {
+        System.out.println("calculating Area of Rectangle(l,b)");
         double areaOfRectangle = super.length * super.breadth;
         return areaOfRectangle;
     }
@@ -66,6 +66,7 @@ class Triangle extends Shape {
     }
 
     public double calculatedArea() {
+        System.out.println("calculating Area of Triangle(l,b)");
         double areaOfTriangle = 0.5 * super.length * super.breadth;
         return areaOfTriangle;
     }

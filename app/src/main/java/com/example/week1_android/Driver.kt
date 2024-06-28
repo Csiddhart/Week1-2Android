@@ -1,9 +1,9 @@
 package com.example.week1_android
 
-import com.example.week1_android.kotlinlearning.Contractor
-import com.example.week1_android.kotlinlearning.Employee
-import com.example.week1_android.kotlinlearning.FullTime
-import com.example.week1_android.kotlinlearning.Intern
+import com.example.week1_android.kotlinpractice.Contractor
+import com.example.week1_android.kotlinpractice.Employee
+import com.example.week1_android.kotlinpractice.FullTime
+import com.example.week1_android.kotlinpractice.Intern
 
 object Driver {
 
@@ -18,6 +18,10 @@ object Driver {
         println(square)
         println(rectangle)
         println(triangle)
+
+        //my home work
+        val sq:Aakar = Chuuko(5.0) //from this we can understand polymorphism(aaro banao opor taar motoh then e bhujteh parbe)
+        println(sq)
 
         // challenge -> figure out a way to print salaries of each employee based on
         //  1. Contractor
